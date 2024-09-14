@@ -1,9 +1,17 @@
-#first_part {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#first_section {
     background-color: #936639;
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     padding: 50px; 
+    padding-bottom: 20px;
 }
 
 .img1 {
@@ -18,15 +26,21 @@
     margin-left: 120px;
 }
 
+hr {
+    border: none; 
+    height: 2px;
+    background-color: #000; 
+}
+
+
 .bio h1 {
     color: white;
     font-size: 3.5em;
     font-family: "Playfair Display", serif;
-    margin-bottom: 0;
 }
 
 .bio h3 {
-    width: 60%;
+    width: 70%;
     font-family: "Jacques Francois Shadow", serif;
     font-size: 1.2em;
     margin: 5px;
@@ -40,4 +54,98 @@
     background-color: #ddb892;
     margin-top: 40px;
     line-height: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.black_part {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+} 
+
+.black_part p {
+    width: 70px;
+    height: 70px;
+    border-radius:50% ;
+    font-weight: 500;
+    font-size: 1.1em;
+    background-color: #ffa200;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 85px;
+}
+
+
+#second_section {
+    background-color: #ede0d4;
+    padding: 20px; 
+}
+
+.skills {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lang_skills, .tech_skills {
+    width: 40%;
+    background-color: #c6ac8f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.lang_skills h2, .tech_skills h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.lang_skills ul, .tech_skills ul {
+    list-style-type: none;
+}
+
+.lang_skills li, .tech_skills li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.tech_skills p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.prog_lang ul {
+    padding-left: 0;
+}
+
+.prog_lang li {
+    background: #f4f4f4;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 6px;
+    font-size: 1.1em;
+}
+
+.prog_lang p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.prog_images {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center; 
 }
