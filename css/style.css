@@ -67,8 +67,8 @@ hr {
 } 
 
 .black_part p {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius:50% ;
     font-weight: 500;
     font-size: 1.1em;
@@ -143,9 +143,72 @@ hr {
 
 .prog_images {
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
     justify-content: center; 
+}
+
+
+#third_section {
+    height: 700px;
+    background-color: #936639;
+}
+
+#third_section h3 {
+    width: 100%;
+    height: auto;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.school_ach {
+    background-color: #a3b18a;
+}
+
+.uni_ach {
+    background-color: #ffb4a2;
+ 
+}
+
+.school_ach, .uni_ach, .projects{
+    width: 30%;
+    padding: 30px 20px 30px 40px;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.school_ach h5, .uni_ach h5, .projects h5{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.achievements {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+
+.projects a {
+    color: black;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    background-color: #98c1d9;
+    margin: 50px auto; 
 }
