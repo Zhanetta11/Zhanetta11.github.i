@@ -1,0 +1,43 @@
+#first_part {
+    background-color: #936639;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px; 
+}
+
+.img1 {
+    width: 30%;
+    margin-left: 90px; 
+}
+
+.bio {
+    display: block;
+    align-items: center; 
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.bio h1 {
+    color: white;
+    font-size: 3.5em;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0;
+}
+
+.bio h3 {
+    width: 60%;
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.bio ul {
+    width: 50%;
+    padding: 30px 20px 30px 40px;
+    font-family: "Sofadi One", system-ui;
+    font-size: 1em;
+    background-color: #ddb892;
+    margin-top: 40px;
+    line-height: 25px;
+}
