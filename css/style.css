@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
@@ -156,7 +157,7 @@ hr {
     background-color: #936639;
 }
 
-#third_section h3 {
+#third_section h3, #contact_section h3 {
     width: 100%;
     height: auto;
     font-family: "Sofadi One", system-ui;
@@ -221,9 +222,9 @@ hr {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
-  }
+}
   
-  .title p, .title h3 {
+.title p, .title h3 {
     width: 100%;    
     font-family: "Sofadi One", system-ui;
     font-weight: 600;
@@ -232,28 +233,28 @@ hr {
     line-height: 30px;
     text-align: center;
     color: #616161;
-  }
+}
   
- .title h3 {
+.title h3 {
     color: #000;
     padding-top: 10px;
     font-size: 2em;
-  }
+}
   
-  .images {
+.images {
     margin: 0 auto;
-    margin-bottom: 80px;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+    padding-bottom: 40px;
+}
   
-  .images img {
+.images img {
     margin-right: 11px;
     margin-bottom: 15px;
     object-fit: cover;
-  }
+}
   
   .imgs1,
   .imgs2,
@@ -262,21 +263,54 @@ hr {
     justify-content: center;
   }
   
-  .imgs1 img {
+.imgs1 img {
     width: 258px;
     height: 320px;
-  }
+}
   
-  .imgs2 img {
+.imgs2 img {
     width: 250px;
     height: 320px;
-  }
+}
   
-  .imgs3 img {
+.imgs3 img {
     width: 250px;
     height: 300px;
-  }
+}
 
-  #fourt_section {
+#fourth_section {
     background-color: #ede0d4;
-  }
+}
+
+
+#contact_section {
+    background-color: #936639;
+    height: 250px;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.contact_info{
+    margin-top: 20px;
+}
+
+.contact_info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact_info li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.contact_info a {
+    color: #fffcf2; 
+    text-decoration: none; 
+}
+
+.contact_info a:hover {
+    text-decoration: underline; 
+    color: #003554;
+}
