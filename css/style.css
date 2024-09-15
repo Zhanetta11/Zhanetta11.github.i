@@ -212,3 +212,71 @@ hr {
     background-color: #98c1d9;
     margin: 50px auto; 
 }
+
+
+.title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .title p, .title h3 {
+    width: 100%;    
+    font-family: "Sofadi One", system-ui;
+    font-weight: 600;
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #616161;
+  }
+  
+ .title h3 {
+    color: #000;
+    padding-top: 10px;
+    font-size: 2em;
+  }
+  
+  .images {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .images img {
+    margin-right: 11px;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  .imgs1,
+  .imgs2,
+  .imgs3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgs1 img {
+    width: 258px;
+    height: 320px;
+  }
+  
+  .imgs2 img {
+    width: 250px;
+    height: 320px;
+  }
+  
+  .imgs3 img {
+    width: 250px;
+    height: 300px;
+  }
+
+  #fourt_section {
+    background-color: #ede0d4;
+  }
