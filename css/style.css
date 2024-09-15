@@ -5,7 +5,6 @@
     cursor: pointer;
 }
 
-
 #first_section {
     background-color: #936639;
     display: flex;
@@ -71,7 +70,7 @@ hr {
     width: 100px;
     height: 100px;
     border-radius:50% ;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.1em;
     background-color: #ffa200;
     display: flex;
@@ -81,7 +80,6 @@ hr {
     padding: 10px;
     margin-top: 85px;
 }
-
 
 #second_section {
     background-color: #ede0d4;
